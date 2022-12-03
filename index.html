@@ -1,55 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>MQ-diplom</title>
-   <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-   <div class="wrap">    <!-- Обертка страницы -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MQ-diplom</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <!-- Обертка страницы -->
 
-         <!-- Хедер страницы -->
+      <!-- Хедер страницы -->
       <header class="header">
+        <div class="header_wrap">
+          <nav class="logo-menu">
+            <a class="logo-link" href="/">
+              <img class="logo" src="/svg/noemi-logo.svg" alt="noemi-logo"
+            /></a>
 
-         <div class="header_wrap">
+            <button class="menu-checkbox checkbox-hidden">
+              <span class="menu-mobile">Открыть меню</span>
+            </button>
 
-            <nav class="logo-menu">
-               <a class="logo-link" href="/">
-                  <img class="logo" src="/svg/noemi-logo.svg" alt="noemi-logo"></a>
+            <ul class="menu-page">
+              <li class="menu-item"><a href="#!">главная</a></li>
+              <li class="menu-item"><a href="#!">посты</a></li>
+              <li class="menu-item"><a href="#!">статьи</a></li>
+              <li class="menu-item"><a href="#!">теги</a></li>
+              <li class="menu-item"><a href="#!">темы</a></li>
+              <li class="menu-item"><a href="#!">контакты</a></li>
+            </ul>
+          </nav>
 
-               <button class="menu-checkbox checkbox-hidden">
-                  <span class="menu-mobile">Открыть меню</span>
-               </button>
-
-               <ul class="menu-page">
-                  <li class="menu-item"><a href="#!">главная</a></li>
-                  <li class="menu-item"><a href="#!">посты</a></li>
-                  <li class="menu-item"><a href="#!">статьи</a></li>
-                  <li class="menu-item"><a href="#!">теги</a></li>
-                  <li class="menu-item"><a href="#!">темы</a></li>
-                  <li class="menu-item"><a href="#!">контакты</a></li>
-               </ul>
-            </nav>
-
-            <div class="title-page-box">
-               <h1 class="title-page">Блог о творчестве, спорте, и образе жизни</h1>
-            </div>
-         </div>
+          <div class="title-page-box">
+            <h1 class="title-page">
+              Блог о творчестве, спорте, и образе жизни
+            </h1>
+          </div>
+        </div>
       </header>
+
       <div class="content">
+        <h2 class="trends__title">Сейчас в тренде</h2>
 
+        <aside class="trends__wrap">
+          <article class="trend__card img__first">
+            <div class="trend__body">
+              <ul class="tegs__trends">
+                <li class="tegs__list-item">
+                  <a class="teg__link" href="#!">lifestyle</a>
+                </li>
+                <li class="tegs__list-item">
+                  <a class="teg__link" href="#!">interior</a>
+                </li>
+              </ul>
+
+              <h2 class="card__title">Сейчас в тренде: сад на подоконнике</h2>
+            </div>
+          </article>
+
+          <article class="trend__card img__second">
+            <div class="trend__body">
+              <ul class="tegs__trends">
+                <li class="tegs__list-item">
+                  <a class="teg__link" href="#!">food</a>
+                </li>
+              </ul>
+
+              <h2 class="card__title">
+                Cыры на красивых картинках из интернета: какие они на вкус?
+              </h2>
+            </div>
+          </article>
+
+          <article class="trend__card img__third">
+            <div class="trend__body">
+              <ul class="tegs__trends">
+                <li class="tegs__list-item">
+                  <a class="teg__link" href="#!">lifestyle</a>
+                </li>
+                <li class="tegs__list-item">
+                  <a class="teg__link" href="#!">travel</a>
+                </li>
+              </ul>
+
+              <h2 class="card__title">Собираемся в первый поход в горы</h2>
+            </div>
+          </article>
+
+          <article class="trend__card img__fourth">
+            <div class="trend__body">
+              <ul class="tegs__trends">
+                <li class="tegs__list-item">
+                  <a class="teg__link" href="#!">food</a>
+                </li>
+                <li class="tegs__list-item">
+                  <a class="teg__link" href="#!">health</a>
+                </li>
+              </ul>
+
+              <h2 class="card__title">
+                Сейчас в тренде: сколько витамина c в лимонах?
+              </h2>
+            </div>
+          </article>
+        </aside>
       </div>
-      <main class="main">
-
-      </main>
-      <section class="container">
-
-      </section>
-      <footer class="footer">    <!-- футер -->
-         
-      </footer>
-   </div>
-</body>
+      <main class="main"></main>
+      <section class="container"></section>
+      <footer class="footer"><!-- футер --></footer>
+    </div>
+  </body>
 </html>
