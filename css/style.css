@@ -1,7 +1,7 @@
 @font-face {    /* подключение шрифта */
    font-family: OpenSans-Regular;
    src: local("Open Sans"),
-   url(/fonts/OpenSans-Regular.woff);
+   url(../fonts/OpenSans-Regular.woff);
    font-weight: 400;
    font-style: normal;
 } 
@@ -9,7 +9,7 @@
 @font-face {
    font-family: OpenSans-Bold;
    src: local("Open Sans"),
-   url(/fonts/OpenSans-Bold.woff);
+   url(../fonts/OpenSans-Bold.woff);
    font-weight: 700;
    font-style: normal;
 } 
