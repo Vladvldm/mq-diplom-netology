@@ -14,7 +14,7 @@
    font-style: normal;
 } 
 
- /* сброс стилей margin и padding */
+ /* === сброс стилей margin и padding === */
  * {
    box-sizing: border-box;
    margin: 0;
@@ -116,7 +116,7 @@ a:hover,
    text-align: center;
 }
 
-/* ========== trends ========== */
+   /* === блок trends === */
 .content {
   margin-top: 60px;
   margin-bottom: 62px;
@@ -235,8 +235,247 @@ a:hover,
   margin-right: 20px;
 }
 
+      /* === блок main === */
 .main {
   width: 1170px;
   margin: 65px auto 0;
   display: flex;
+}
+
+
+/* --- section --- */
+/* --- posts --- */
+
+.posts {
+  width: 780px;
+}
+
+.post {
+  display: flex;
+  margin-bottom: 65px;
+  /*  */
+  box-shadow: 0 0 3px #555;
+}
+
+.post-img {
+  width: 380px;
+  height: 290px;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.post-text {
+  width: 370px;
+}
+
+.title-head {
+  font-family: "OpenSans-Bold";
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #b59f5b;
+  padding-right: 20px;
+}
+
+.post .post-text .title-head a:hover {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.title-post {
+  font-family: "OpenSans-Bold";
+  font-size: 20px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #0f0d0e;
+  margin-top: 5px;
+}
+
+.post-date {
+  font-family: "OpenSans-Regular";
+  font-size: 12px;
+  line-height: 25px;
+  color: #888;
+  margin: 25px 0;
+}
+
+.post-date span {
+  font-family: "OpenSans-Bold";
+  color: #000;
+  padding-left: 10px;
+}
+
+.post-description {
+  font-family: "OpenSans-Regular";
+  font-size: 15px;
+  line-height: 22px;
+  color: #070707;
+  margin: 40px 0;
+}
+
+/* --- aside --- */
+
+.new-posts {
+  width: 270px;
+  margin-left: 120px;
+  text-align: center;
+}
+
+.new-posts-title {
+  font-family: "OpenSans-Bold";
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #0f0d0e;
+  
+  padding-bottom: 25px;
+  margin-top: 0;
+}
+
+.new-posts-title::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 65px;
+  margin: 15px auto 0;
+  background-color: #b59f5b;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  /* background-position: center center; */
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.new-post {
+  text-align: left;
+  display: flex;
+  margin-bottom: 22px;
+  box-shadow: 0 0 5px #555;  /*  */
+}
+
+.new-post img {
+  width: 70px;
+  height: 70px;
+  margin-right: 18px;
+  box-shadow: 0 0 5px #555;  /*  */
+}
+
+.new-post-date {
+  /* font-family: "OpenSans-Regular"; */
+  font-size: 12px;
+  line-height: 13px;
+  color: #000;
+  margin: 0;
+}
+
+.new-post-text {
+  font-family: "OpenSans-Bold";
+  font-size: 14px;
+  line-height: 16px;
+  /* letter-spacing: -0.1px; */
+  text-transform: uppercase;
+  color: #000;
+  margin: 5px 0;
+}
+
+.search {
+  width: 270px;
+  height: 48px;
+  
+  display: flex;
+  margin: 58px 0;
+}
+
+.search-field {
+  width: 222px;
+  height: 100%;
+  border: none;
+  background-color: #f4f7f6;
+  padding-left: 18px;
+}
+
+.search-btn {
+  background-image: url(/svg/search.svg);
+  width: 48px;
+  height: 48px;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 19px 19px;
+  background-color: #b59f5b;
+}
+
+.search-field img {
+  display: inline-block;
+  
+}
+
+.social-link-text,
+.visually-hidden  {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.newsletters {
+  font-family: "OpenSans-Bold";
+  font-size: 14px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #0f0d0e;
+  margin-bottom: 60px;
+}
+
+.input-letters,
+.button-letters {
+  display: block;
+  width: 270px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.input-letters {
+  padding-left: 18px;
+}
+
+.button-letters {
+  background-color: #b59f5b;
+  border: none;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+}
+
+/* === блок теги === */
+
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  /* justify-content: space-between; */
+}
+
+.tag-link a {
+  font-family: "OpenSans-Bold";
+  /* font-size: 13px; */
+  line-height: 15px;
+  color: #0f0d0e;
+  display: inline-block;
+  padding: 4px 10px;
+  margin: 0 8px  6px 0;
+  border: 3px solid #eee;
+  background-color: rgba(244,243,241,0);
+
+}
+
+.tag-link a:hover {
+  border: 3px solid #b59f5b;
 }
