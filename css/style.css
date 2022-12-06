@@ -94,10 +94,7 @@ a {
 
 a:hover,
 .tag-link a:hover {
-   font-family: "OpenSans-Regular";
-   font-size: 13px;
    color: rgb(255, 204, 153);
-   text-align: center;
 }
 
 .title-page-box {
@@ -186,7 +183,7 @@ a:hover,
 
 .trend__card::after {
   content: "";
-  background-color: #000000;
+  background-color: #000;
   top: 0;
   right: 0;
   left: 0;
@@ -254,7 +251,7 @@ a:hover,
   display: flex;
   margin-bottom: 65px;
   /*  */
-  box-shadow: 0 0 3px #555;
+  box-shadow: 0 0 3px #777;
 }
 
 .post-img {
@@ -339,9 +336,6 @@ a:hover,
   width: 65px;
   margin: 15px auto 0;
   background-color: #b59f5b;
-  /* background-repeat: no-repeat;
-  background-size: cover; */
-  /* background-position: center center; */
   top: 0;
   bottom: 0;
   right: 0;
@@ -352,14 +346,13 @@ a:hover,
   text-align: left;
   display: flex;
   margin-bottom: 22px;
-  box-shadow: 0 0 5px #555;  /*  */
+  box-shadow: 0 0 5px #777;  /*  */
 }
 
 .new-post img {
   width: 70px;
   height: 70px;
   margin-right: 18px;
-  box-shadow: 0 0 5px #555;  /*  */
 }
 
 .new-post-date {
@@ -397,7 +390,7 @@ a:hover,
 }
 
 .search-btn {
-  background-image: url(/svg/search.svg);
+  background-image: url(../svg/search.svg);
   width: 48px;
   height: 48px;
   border: none;
@@ -409,7 +402,6 @@ a:hover,
 
 .search-field img {
   display: inline-block;
-  
 }
 
 .social-link-text,
@@ -460,12 +452,11 @@ a:hover,
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  /* justify-content: space-between; */
 }
 
 .tag-link a {
   font-family: "OpenSans-Bold";
-  /* font-size: 13px; */
+  font-size: 13px;
   line-height: 15px;
   color: #0f0d0e;
   display: inline-block;
