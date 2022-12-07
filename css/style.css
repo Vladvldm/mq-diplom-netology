@@ -470,3 +470,45 @@ a:hover,
 .tag-link a:hover {
   border: 3px solid #b59f5b;
 }
+
+/* === блок темы === */
+.topics {
+  margin-top: 52px;
+}
+
+.topics-list {
+  list-style-type: none;
+  text-align: left;
+}
+
+.topic-item {
+  padding-bottom: 13px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+.topic-link {
+  font-family: "OpenSans-Bold";
+  font-size: 14px;
+  color: black;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.topic-number {
+  font-family: inherit;
+  font-size: 14px;
+  color: #b59f5b;
+
+  position: relative;
+  left: 2px;
+  top: -5px;
+}
+
+a {   /* стили ссылок */
+  text-decoration: none;
+}
+
+a:hover {    /* hover для ссылок <a> */
+  color: rgb(255, 204, 153);     
+}
