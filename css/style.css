@@ -249,9 +249,9 @@ a:hover,
 
 .post {
   display: flex;
-  margin-bottom: 65px;
-  /*  */
-  box-shadow: 0 0 3px #777;
+  margin-bottom: 50px;
+  
+  box-shadow: 0 0 3px #777;   /*  */
 }
 
 .post:nth-child(7) {
