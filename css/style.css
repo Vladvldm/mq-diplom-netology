@@ -152,7 +152,7 @@ a:hover,
 }
 
 .trend__card {
-  width: calc((100% / 4) - 3px);
+  width: calc((100% / 4) - 6px);
   min-height: 320px;
 
   display: flex;
@@ -204,7 +204,6 @@ a:hover,
 .card-title a {
   font-family: OpenSans-Bold;
   font-size: 20px;
-  font-weight: bold;
   color: #fff;
   text-transform: uppercase;
   margin-top: 20px;
@@ -224,7 +223,6 @@ a:hover,
 
   font-family: OpenSans-Bold;
   font-size: 14px;
-  font-weight: bold;
   color: #b59f5b;
 }
 
@@ -250,7 +248,6 @@ a:hover,
 .post {
   display: flex;
   margin-bottom: 50px;
-  
   box-shadow: 0 0 3px #777;   /*  */
 }
 
@@ -583,8 +580,7 @@ a:hover {    /* === hover для ссылок <a> === */
   width: 137px;
   height: 54px;
   text-transform: uppercase;
-  font-family: opensans, Arial, sans-serif;
-  font-weight: bold;
+  font-family: "OpenSans-Bold";
   font-size: 14px;
   text-align: center;
   color: #ffffff;
