@@ -201,11 +201,11 @@ a:hover,
   padding: 35px 30px 25px;
 }
 
-.card__title {
+.card-title a {
   font-family: OpenSans-Bold;
   font-size: 20px;
   font-weight: bold;
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
   margin-top: 20px;
 }
