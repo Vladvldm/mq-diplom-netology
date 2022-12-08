@@ -593,3 +593,42 @@ a:hover {    /* === hover для ссылок <a> === */
   border: none;
   cursor: pointer;
 }
+
+/* === footer === */
+.footer {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  height: 85px;
+  padding: 32px 0;
+  background-color: #f4f7f6;
+}
+
+.socials {
+  width: 110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  width: 25px;
+}
+
+.footer-bottom {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  font-family: "OpenSans-Bold";
+  font-size: 12px;
+  line-height: 40px;
+  letter-spacing: -0.1px;
+  color: #999;
+  text-align: center;
+}
